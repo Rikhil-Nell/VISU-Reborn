@@ -8,7 +8,7 @@ load_dotenv(dotenv_path=".env", override=True)
 
 class Settings(BaseSettings):
     DEEPGRAM_API_KEY: str
-    CEREBRAS_API_KEY: str
+    OPENAI_API_KEY: str
     CARTESIA_API_KEY: str
     LIVEKIT_API_KEY: str
     LIVEKIT_API_SECRET: str

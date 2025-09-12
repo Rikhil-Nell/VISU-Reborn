@@ -32,7 +32,7 @@ class VisuAgent(Agent):
         rules_text = rules_path.read_text(encoding="utf-8").strip()
         
 
-        llm = openai.LLM.with_cerebras(model="llama-3.3-70b", api_key= settings.CEREBRAS_API_KEY )
+        llm = openai.LLM(model="gpt-4o-mini", api_key= settings.OPENAI_API_KEY )
         stt = deepgram.STT(api_key=settings.DEEPGRAM_API_KEY)
         tts = cartesia.TTS(voice="bf0a246a-8642-498a-9950-80c35e9276b5", api_key= settings.CARTESIA_API_KEY)
         vad = silero.VAD.load()
