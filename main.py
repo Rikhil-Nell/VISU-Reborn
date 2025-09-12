@@ -4,8 +4,13 @@ from livekit import agents
 from agent.visu import VisuAgent
 
 from dotenv import load_dotenv
+from config.settings import Settings
 
 load_dotenv()
+
+settings = Settings()
+
+print(settings.OPENAI_API_KEY)
 
 async def agent_entrypoint(ctx: JobContext):
     """Simple multi-agent entry point"""
