@@ -5,6 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "ipython>=9.5.0",
+    "livekit>=1.0.12",
     "livekit-agents[cartesia,openai,silero]>=1.2.8",
+    "livekit-plugins-cartesia>=1.2.8",
+    "livekit-plugins-deepgram>=1.2.8",
+    "livekit-plugins-openai>=1.2.8",
+    "livekit-plugins-silero>=1.2.8",
     "pydantic-settings>=2.10.1",
 ]
