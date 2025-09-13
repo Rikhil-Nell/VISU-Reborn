@@ -318,26 +318,6 @@ Contributors will be:
 - Given credit in documentation
 - Invited to the contributors team
 
-## 📊 Roadmap
-
-### 🎯 **Version 2.0** (Next Release)
-- [ ] Multi-language support
-- [ ] Voice cloning capabilities
-- [ ] Mobile app version
-- [ ] Docker containerization
-
-### 🚀 **Version 3.0** (Future)
-- [ ] Video emotion detection
-- [ ] Multi-user conversations
-- [ ] Plugin system
-- [ ] Cloud deployment options
-
-### 🔮 **Long Term**
-- [ ] AR/VR integration
-- [ ] Advanced emotion analytics
-- [ ] AI model fine-tuning
-- [ ] Enterprise features
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
